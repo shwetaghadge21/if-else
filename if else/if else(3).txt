@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void main()
+{
+    int speed;
+
+    printf("Enter vehicle speed: ");
+    scanf("%d", &speed);
+
+    if (speed > 80)
+    {
+        printf("Overspeed");
+    }
+    else if (speed <= 40)
+    {
+        printf("Speed is low");
+    }
+    else
+    {
+        printf("Speed is normal");
+    }
+}

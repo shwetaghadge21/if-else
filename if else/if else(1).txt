@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void main()
+{
+    int brightness;
+
+    printf("Enter your screen brightness: ");
+    scanf("%d", &brightness);
+
+    if (brightness > 90)
+    {
+        printf("It is dangerous");
+    }
+    else if (brightness <= 50)
+    {
+        printf("Brightness is low");
+    }
+    else
+    {
+        printf("Brightness is normal");
+    }
+}
